@@ -1,6 +1,6 @@
-def drawRightSlantTriangle(n):
+def drawRightSlantTriangle(h):
 
-    for i in range(0,n):
+    for i in range(0,h):
     
         for x in range(0,5 - i):
             print(" ",end = "")
