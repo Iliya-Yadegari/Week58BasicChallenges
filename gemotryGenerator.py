@@ -11,12 +11,12 @@ def menu():
         for i in range(n):
             line += asterik
         print(line)
-        
+
     if menu_out == 2:
         n = int(input('Enter your height: '))
         for i in range(n):
             print('*')
-            
+
     if menu_out == 3:
         widthL = ''
         asterik = '*'
@@ -29,17 +29,19 @@ def menu():
 
         for i in range(h):
             print(widthL)
-            
+
     if menu_out == 4:
         h = int(input('Enter your height: '))
+        
         triangle = ''
         asterik = '*'
 
         for i in range(h):
+            
             triangle += asterik
 
             print(triangle)
-            
+
     if menu_out == 5:
 
         h = int(input('Enter your height: '))
@@ -52,11 +54,13 @@ def menu():
             for y in range(0,i + 1):
                 print("*",end = "")
 
+
         print()
+
 
     if menu_out == 6:
         h = int(input('Enter your height: '))
-    
+
         for i in range(h + 1):
             numSpace = h - i
             print (' ' * numSpace + '* ' * i)
