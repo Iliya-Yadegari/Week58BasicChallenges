@@ -1,7 +1,7 @@
-def drawIsoscelesTriangle(n): 
+def drawIsoscelesTriangle(h): 
 
-    for i in range(n + 1):
-        numSpace = n - i
+    for i in range(h + 1):
+        numSpace = h - i
         print (' ' * numSpace + '* ' * i)
 
 drawIsoscelesTriangle(10)
