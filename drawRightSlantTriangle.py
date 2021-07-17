@@ -10,4 +10,4 @@ def drawRightSlantTriangle(h):
         
         print()
 
-drawRightSlantTriangle(10000000000000)
+drawRightSlantTriangle(10)
